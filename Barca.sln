@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barca", "Barca\Barca.csproj", "{8DE980B6-183A-479D-BAD4-8AA13A73055E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DE980B6-183A-479D-BAD4-8AA13A73055E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE980B6-183A-479D-BAD4-8AA13A73055E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE980B6-183A-479D-BAD4-8AA13A73055E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE980B6-183A-479D-BAD4-8AA13A73055E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6BD3606-0FB6-482D-AC47-4EDD95672923}
+	EndGlobalSection
+EndGlobal
