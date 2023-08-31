@@ -2,15 +2,13 @@
 
 namespace Barca.DTOs
 {
-    public class FootballClubDTO
+    public class UserAddressDTO
     {
         public int? Id { get; set; }
 
-        public string Name { get; set; }
+        public string Address { get; set; }
 
-        public string Slug { get; set; }
-
-        public string Countries { get; set; }
+        public string? Phone { get; set; }
 
         public DateTime CreatedAt { get; set; }
 
@@ -18,6 +16,8 @@ namespace Barca.DTOs
 
         public DateTime? DeletedAt { get; set; }
 
-        public List<ProductDTO>? Products { get; set; }
+        public int? UserId { get; set; }
+
+        public string? UserName { get; set; }
     }
 }

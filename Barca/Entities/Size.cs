@@ -9,5 +9,9 @@ public partial class Size
 
     public string? SizeName { get; set; }
 
-    public virtual ICollection<ProductVariant> ProductVariants { get; set; } = new List<ProductVariant>();
+    public DateTime CreatedAt { get; set; }
+
+    public DateTime? UpdatedAt { get; set; }
+
+    public DateTime? DeletedAt { get; set; }
 }

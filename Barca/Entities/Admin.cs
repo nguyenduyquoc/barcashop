@@ -11,5 +11,11 @@ public partial class Admin
 
     public string Role { get; set; } = null!;
 
+    public DateTime CreatedAt { get; set; }
+
+    public DateTime? UpdatedAt { get; set; }
+
+    public DateTime? DeletedAt { get; set; }
+
     public virtual User User { get; set; } = null!;
 }

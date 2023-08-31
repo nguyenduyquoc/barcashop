@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Barca.Entities;
 
-public partial class MatchKind
+public partial class UserDiscount
 {
-    public int Id { get; set; }
+    public int? UserId { get; set; }
 
-    public string? MatchKindName { get; set; }
+    public int? DiscountId { get; set; }
 
     public DateTime CreatedAt { get; set; }
 
@@ -15,5 +15,7 @@ public partial class MatchKind
 
     public DateTime? DeletedAt { get; set; }
 
-    public virtual ICollection<ProductImage> ProductImages { get; set; } = new List<ProductImage>();
+    public virtual DiscountCode? Discount { get; set; }
+
+    public virtual User? User { get; set; }
 }

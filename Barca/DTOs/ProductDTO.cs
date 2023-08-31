@@ -18,9 +18,15 @@ namespace Barca.DTOs
 
         public int? CategoryId { get; set; }
 
+        public string? CategoryName { get; set; }
+
         public int? BrandId { get; set; }
 
+        public string? BrandName { get; set; }
+
         public int ClubId { get; set; }
+
+        public string? FootballClubName { get; set; }
 
         public DateTime CreatedAt { get; set; }
 
@@ -28,14 +34,8 @@ namespace Barca.DTOs
 
         public DateTime? DeletedAt { get; set; }
 
-        public virtual Brand? Brand { get; set; }
+        public List<OrderProductDTO>? OrderProducts { get; set; }
 
-        public virtual Category? Category { get; set; }
-
-        public virtual FootballClub? Club { get; set; }
-
-        public List<OrderProductDTO> OrderProducts { get; set; }
-
-        public List<ProductVariantDTO> ProductVariants { get; set; }
+        public List<ProductImageDTO>? ProductImages { get; set; }
     }
 }

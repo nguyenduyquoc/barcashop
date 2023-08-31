@@ -5,8 +5,6 @@ namespace Barca.Entities;
 
 public partial class ProductVariant
 {
-    public int Id { get; set; }
-
     public int? ProductId { get; set; }
 
     public int? SizeId { get; set; }
@@ -18,6 +16,16 @@ public partial class ProductVariant
     public decimal CurrentPrice { get; set; }
 
     public int Quantity { get; set; }
+
+    public int? QuantitySold { get; set; }
+
+    public DateTime CreatedAt { get; set; }
+
+    public DateTime? UpdatedAt { get; set; }
+
+    public DateTime? DeletedAt { get; set; }
+
+    public string? Thumbnail { get; set; }
 
     public virtual MatchKind? MatchKind { get; set; }
 
